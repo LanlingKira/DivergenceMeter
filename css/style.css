@@ -1,0 +1,75 @@
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+#timeBox {
+    font-size: 0;
+    position: absolute;
+    width: 1440px;
+    transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+}
+
+#timeBox div {
+    position: relative;
+    width: 180px;
+    height: 460px;
+    display: inline-block;
+}
+
+.n0,.n1,.n2,.n3,.n4,.n5,.n6,.n7,.n8,.n9,.n10,.n11 {
+    background-image: url(../img/DivergenceMeter.jpg);
+}
+
+.n0 {
+    background-position: 0px 0px;
+}
+
+.n1 {
+    background-position: -180px 0px;
+}
+
+.n2 {
+    background-position: -360px 0px;
+}
+
+.n3 {
+    background-position: -540px 0px;
+}
+
+.n4 {
+    background-position: -720px 0px;
+}
+
+.n5 {
+    background-position: -900px 0px;
+}
+
+.n6 {
+    background-position: 0px 460px;
+}
+
+.n7 {
+    background-position: -180px 460px;
+}
+
+.n8 {
+    background-position: -360px 460px;
+}
+
+.n9 {
+    background-position: -540px 460px;
+}
+
+.n10 {
+    background-position: -720px 460px;
+}
+
+.n11 {
+    background-position: -900px 460px;
+}
